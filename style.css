@@ -7,10 +7,12 @@
 /* header portion */
 .nav-container{
     width: 100%;
+    overflow: hidden;
 }
 .navbar{
     width: 319px;
     height: 24px;
+    margin-top: 37px;
     float: right;
 }
 .nav-menu{
@@ -28,6 +30,67 @@
     line-height: 24px;
 }
 .nav-links:hover{
-    color: #F46060;
+    color: #FF8367;
     transition: all 0.5s ease-out;
+}
+
+.hero-container{
+    width: 100%;
+    overflow: hidden;
+    margin: 38px 0;
+}
+.half-width{
+    width: 45%;
+    float: left;
+    margin: 15px;
+    padding: 15px;
+}
+.half-width h1{
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 80px;
+    color: #363958;
+    text-transform: uppercase;
+}
+.half-width h1 span{
+    color: #FF8367;
+}
+.half-width p{
+    width: 309px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3E3E3E;
+}
+.half-width img{
+    width: 500px;
+    height auto;
+}
+.about-half-width{
+    margin: 150px 0 0 100px;
+}
+.about-half-width button{
+    background-color: #FF8063;
+    padding: 10px 30px;
+    border-radius: 6px;
+}
+.about-half-width button:hover{
+    background-color: #363958;
+    letter-spacing: 1px;
+    transition: all 0.5s ease-out;
+}
+.about-half-width button i{
+    font-size: 24px;
+    color: white;
+    margin: 0 11px;
+}
+.about-half-width button a{
+    font-family: Roboto;
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
 }
