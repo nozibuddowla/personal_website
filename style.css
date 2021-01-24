@@ -153,7 +153,6 @@ a{
 }
 
 /* work inquery portion */
-
 .inquery-container{
     width: 100%;
     margin-bottom: 80px;
@@ -190,4 +189,35 @@ a{
     color: #FFFFFF;
     padding: 20px 30px;
     margin-left: 175px;
+}
+
+/* footer portion */
+footer{
+    width: 100%;
+    text-align: center;
+}
+footer h3{
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 24px;
+    color: #696871;
+}
+footer h2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    color: #363958;
+    margin-top: 16px;
+}
+footer ul li{
+    display: inline;
+    margin-left: 27px;
+}
+footer .social-icons-wrapper a img{
+    width: 40px;
+    margin: 23px 0 81px 0;
 }
